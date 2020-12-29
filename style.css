@@ -1,0 +1,118 @@
+/* Background image */
+body {background-image:url("pce.jpg");
+    background-color:lightyellow;
+    background-attachment:fixed;
+    background-position:center;}
+    /* Search Box */
+    input.one[type=text]
+           {width:60%;
+           box-sizing:border-box;
+           border:2px solid grey;
+           background-color:grey;
+           color: black;
+           padding:5px 20px;
+           transition:0.2s;
+           border-radius:4px;}
+           
+    input.one[type=text]:focus{border:2px solid silver;
+    border-radius:3px;}
+    
+    /* Search Button */
+    input.two[type=submit] 
+           {width:20%;
+            border:1px solid lightgrey;
+            border-radius:20px;
+            color:black;
+            padding:5px;
+            cursor:pointer;
+            transition:0.1s;
+            background-color:#B0C4DE;} 
+    input.two[type=submit]:focus{border-radius:5px;border:2px solid;}		
+    input.two[type=submit]:hover{background-color:dimgray; transition:0.5s;}		
+    
+    /* Nav-Bar*/
+    ul.txt1{list-style-type: none;
+        margin:0px;
+        padding:0px;
+        overflow: hidden;
+        background-color:darkslategray;
+        top:0;
+        position:fixed;
+        width:100%;
+        opacity:0.8;}
+    /*THE SECOND LIST for NAv Bar */ 
+        ul.time{list-style-type: none;
+        margin-top:40px;
+        padding:0px;
+        overflow: hidden;
+        background-color:darkslategray;
+        width:100%;
+        opacity:0.8;}	
+    
+    /* Basic things for Nav Bar */
+    li.rim {float: left;
+    font-size:30px;}
+    
+    li.roach{float: left;
+    font-size:29px;}
+    
+    /* Specifying spex for the hyperlinks of Nav Bar */
+    li.rim a {display: block;
+        color: white;
+        padding-left:30px;
+        padding-right:30px;
+        text-align:center;
+        text-decoration: none;}
+    
+    li.roach a{display: block;
+        color: white;
+        padding-left:30px;
+        padding-right:30px;
+        text-align:center;
+        text-decoration: none;}	
+    
+    /*NAV Bar's Change on mouse hover */
+    a.bully:hover {background-color: black;
+    transition:0.4s;}
+    a.rev:hover{background-color:black;
+    transition:0.4s;}
+    
+    /* Aligning the search bar to the right*/
+        form{text-align:right;}
+    
+     
+     /* characteristix for active page */ 
+     .active{background-color:lightgreen;}
+     a.active:hover{background-color:lightgreen;}
+      
+    /* Sorting some things up for the search bar and login/aboutus */ 
+     li.roam{float:right;}
+      li.roach{float:right;
+      background-color: slategray;}
+      
+    /* Logo image spex */  
+      img.lg{margin-left:30px;
+      margin-top:10px;}
+      
+    /* My Credits */ 
+     footer{background-color:black;}
+     
+     /* Settin' up the profile link */
+        p.pai{text-align:center;}
+        a.det:link{text-decoration:none;}
+        a.det:hover{border-left:2px solid grey;
+        border-right:2px solid grey;
+        background-color:silver;}
+        a.det:visited{border-left:2px solid red;
+        border-right:2px solid red;}
+        
+        
+    /* Background for the Information */
+    div.unl{background-color:grey;
+    opacity:0.8;
+    text-align:center;
+    height:768px;}
+    h1{font-size:40px;
+    font-weight:normal;}
+    table{text-align:center;}
+    

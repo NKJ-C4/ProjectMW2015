@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Join/Login
+</title>
+<style type="text/css">
+/* Background image */
+body {background-image:url("jtops2.jpg");
+background-color:lightyellow;
+background-attachment:fixed;
+background-position:center;}
+/* Search Box */
+input.one[type=text]
+       {width:60%;
+	   box-sizing:border-box;
+	   border:2px solid grey;
+	   background-color:grey;
+	   color: black;
+	   padding:5px 20px;
+	   transition:0.2s;
+	   border-radius:4px;}
+	   
+input.one[type=text]:focus{border:2px solid silver;
+border-radius:3px;}
+
+/* Search Button */
+input.two[type=submit] 
+       {width:20%;
+		border:1px solid lightgrey;
+		border-radius:20px;
+		color:black;
+		padding:5px;
+		cursor:pointer;
+		transition:0.1s;
+		background-color:#B0C4DE;} 
+input.two[type=submit]:focus{border-radius:5px;border:2px solid;}		
+input.two[type=submit]:hover{background-color:dimgray;
+transition:0.5s;}			
+
+/* Nav-Bar*/
+ul.txt1{list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    background-color:darkslategray;
+	top:0;
+	position:fixed;
+	width:100%;opacity:0.8;}
+/*THE SECOND LIST for NAv Bar */ 
+    ul.time{list-style-type: none;
+    margin-top:40px;
+    padding:0px;
+	opacity:0.9;
+    overflow: hidden;
+    background-color:maroon;
+	background-repeat:repeat-x;
+	width:100%;}	
+
+/* Basic things for Nav Bar */
+li.rim {float: left;
+font-size:30px;}
+
+li.roach{float: left;
+font-size:29px;}
+
+/* Specifying spex for the hyperlinks of Nav Bar */
+li.rim a {display: block;
+    color: white;
+    padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+    text-decoration: none;}
+
+li.roach a{display: block;
+    color: white;
+    padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+    text-decoration: none;}	
+
+/*NAV Bar's Change on mouse hover */
+a.bully:hover {background-color: black;
+transition:0.4s;}
+a.rev:hover{background-color:black;
+transition:0.4s;}
+
+/* Aligning the search bar to the right*/
+	
+
+ 
+ /* characteristix for active page */ 
+ .active{background-color:lightgreen;}
+ a.active:hover{background-color:lightgreen;}
+  
+/* Sorting some things up for the search bar and login/aboutus */ 
+ li.roam{float:right;}
+  li.roach{background-color: slategray;}
+  
+/* The horizontal rule */ 
+ hr.top {opacity:0.2;
+  border-radius:10px;}
+  
+/* Logo image spex */  
+  img.lg{margin-left:30px;
+  margin-top:10px;}
+  
+/* My Credits */ 
+ footer{background-color:black;}
+ 
+ /* Settin' up the profile link */
+	p.pai{text-align:center;}
+	a.det:link{text-decoration:none;}
+	a.det:hover{border-left:2px solid grey;
+	border-right:2px solid grey;
+	background-color:silver;}
+	a.det:visited{border-left:2px solid red;
+	border-right:2px solid red;}
+	
+ /* Login Section */   
+	div.unl{background-color:dodgerblue;
+            width:60%;
+            text-align:center;
+            border-radius:10px;
+			opacity:0.98;}
+            h1{font-size:40px;
+            font-weight:normal;}
+            hr{margin:0;}
+            h1.login{background-color:maroon;
+            border-radius:10px;}
+	
+	input.tgod[type=text], [type=password]{border:1px solid lightgrey;
+	height:20px;
+	border-radius:5px;
+	padding:4px;
+	margin-top:8px;
+	width:30%;}
+	input.tgod[type=text], [type=password]:focus {border:2px solid black;
+	}
+	
+	input.heir[type=submit]{border-radius:20px;
+	height:30px;
+	width:90px;
+	background-color:skyblue;
+	cursor:pointer;}
+	
+	input.heir[type=submit]:hover{background-color:lightblue;
+	transition:0.3s;}
+	
+	input[type=checkbox]{border:1px solid grey;
+	border-radius:2px;}
+	
+hr{margin-top:10px;}
+ 
+ /* Sign Up Section */
+.bird{background-color:dodgerblue;
+opacity:0.9;
+border-radius:300px;
+border:1px solid red;
+width:60%;}
+.birdy{background-color:maroon;
+text-align:center;
+opacity:0.9;
+width:50%;
+border:1px solid red;}
+
+.teach{text-align:center;}
+.un{width:30%;
+height:30px;
+padding:5px;
+border:1px solid lightgrey;
+border-radius:4px;
+font-size:15px;
+background-color:slategray;}
+
+.rip{width:30%;
+height:30px;
+padding:5px;
+border:1px solid lightgrey;
+border-radius:4px;
+font-size:15px;
+background-color:lightblue;
+margin-top:5px;
+color:black;}
+
+.reg{height:40px;
+font-size:15px;
+background-color:slategray;
+color:white;
+border: 1px solid lightgrey;
+border-radius:4px;
+cursor:pointer;}
+
+option{background-color:slategray;}
+
+.butt{width:30%;
+height:40px;
+cursor:pointer;
+background-color:lightgreen;
+font-size:20px;}
+.butt:hover{border:2px solid silver;}
+
+.agree{margin:10px;}
+	</style></head>
+<body topmargin="0" leftmargin="0">
+
+
+<font face="Segoe UI Light">
+<div class="epic"><ul class="txt1">
+<li class="rim"><a href="CODMW.html" class="active">HOME</a></li>
+<li class="rim"><a class="bully" href="index.html">MW 1</a></li>
+<li class="rim"><a class="bully" href="CODMW2.html">MW 2</a></li>
+<li class="rim"><a class="bully" href="CODMW3.html">MW 3</a></li>
+<li class="roam"><form class="find" role="search" method="get" action="https://www.google.co.in/">
+<input class="one" type="text" name="https://www.google.co.in/search?" placeholder="Your Text Here..."/>
+<input class="two" type="submit" value="Search"></form></li>
+<li class="roach"><a class="rev" href="abus.html">About Us</a></h3></li>
+<li class="roach"><a class="rev" href="signin.html">Join or Log IN</a></h3></li></ul></div>
+<ul class="time"><li><center><a href="CODMW.html"><img class="lg" src="prv2.jpg" alt="M.W. Home" height="150" width="450"> </a></li></ul>
+
+<center><div class="unl">
+<font face="Segoe UI Light" color="grey"><h1 class="login">LOGIN<hr width="99.8%" size="2" color="black"></h1></font>
+<form class="signin" role="fname" method="get" action="https://www.gmail.com/">
+<input class="tgod" type="text" name="fname" placeholder="Username eg:mactav001@gmail.com"/><br>
+<input class="tgod" type="password" name="psw" placeholder="Password"/><br>
+<input type="checkbox" name="remember" class="rmbr">Remember me on this PC</input><br>
+<input class="heir" type="submit" name="Login" value="Log IN"/></form>
+</div></center>
+
+
+<center><h1 class="birdy"> <font color="grey" face="Segoe UI Light">Sign Up</font></h1></center>
+<center><div class="bird"><div class="teach"><font face="Segoe UI Light"><h2>First Name:<br><input class="un" type="text" placeholder="eg:John"><br>
+
+Last Name:<br><input class="un" type="text" placeholder="eg:Watson/Uchiha/sharma..."><br>
+
+Username/E-mail Address:<br><input class="un" type="text" placeholder="eg: mac_tav@callofduty.com"><br>
+
+Password:<br><input class="un" type="password"><br>
+
+Confirm Password:<br><input class="un" type="password"><br>
+
+Choose Your Security Question:<br><font face="Segoe UI Light"><select class="reg"><option>......</option>
+<option><font face="Segoe UI Light">When did You first played Modern warfare?(MONTH-YEAR)</option>
+<option><font face="Segoe UI Light">Who's Your Favouraite Character in Modern Warfare</option>
+<option><font face="Segoe UI Light">What was the Call Of Duty Game You played the first time?</option>
+<option><font face="Segoe UI Light">Do You Like Linkin Park? Explain.</option>
+<option><font face="Segoe UI Light">Which Gun or Arms you liked the most in Modern Warfare?</option>
+<option><font face="Segoe UI Light">Do you want to become a gamer? Why/Why not? </option>
+<option><font face="Segoe UI Light">OR TYPE ANY TEXT YOU LIKE</option></select><br></h1>
+
+<input class="rip" type="text" placeholder="Your Answer"/><br>
+
+<input class="agree" type="checkbox">I Agree To the<a href="terms and conditions"> Terms and conditions</a> and the Privacy
+Policy.<br>
+<input class="butt" type="Submit" value="Create Account"/></center></div></div>
+
+<hr width="100%" color="black" size="2">
+<footer><font face="Segoe UI Light" color="grey" size="6"><marquee>This is to be informed that this webpage [beta] is under the construction of Nishant and [team]. 
+We actually don't need any kind of authoritical permission to create this website as it is not official and neither has any copied element contents in it.
+Made By Nishant and Group [class 10 section A] (c) Copyright NKJ and TeaM Productions!</marquee></font><p class="pai"><a class="det" href="https://www.facebook.com/nkj_nishant">
+<font face="Segoe UI Light" color="darkolivegreen" size="4">View My Complete Profile:Nkj Nishant</a></font></footer>
+</body></html>
